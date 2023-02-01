@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {  
+    background: #B0BFC2;
+    color: #444;
+}
+
+#container {   
+    background: white;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    background: #D36832;
+    color: #FFF;
+    padding: 20px;    
+    border-bottom: 5px solid #387A9B;
+}
+
+#sidebar {
+    float: left;
+    width: 150px;
+    padding: 10px;
+}
+
+#articles {
+    float: right;
+    width: 450px;
+    padding: 0px 10px;
+}
+
+#footer {
+    clear: both;
+    background: #387A9B;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: right;    
+}
+/************ el resto no es necesario modificarlo *************/
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}
+
+#nav li {
+    padding: 5px;
+    text-align: right;
+}
+
+#nav a {
+    color: #175B7D;
+}
+
+#nav a:hover,
+#nav a:active {
+    color: #fff;
+    background: #175B7D;
+}
+
+
+.post {
+    margin: 20px 0px 50px 0px;
+}
+
+.post h2 {
+    margin: 10px 0px;
+    color: #B23B00;
+}
+
+.post p {
+    line-height: 1.4em;
+}
